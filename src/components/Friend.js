@@ -11,7 +11,7 @@ import styled, {keyframes} from 'styled-components'
 */
 
 const kf = keyframes`
-  50%{
+  40%{
     transform:scale(0.8);
   }
 
@@ -50,7 +50,7 @@ button {
 
 transform:scale(2);
 opacity:0.8;
-animation: ${kf} 0.3 ease-in-out forwards;
+animation: ${kf} 0.2s ease-in-out forwards;
 `
 export default function Friend({ info, action, besty }) {
   return (
